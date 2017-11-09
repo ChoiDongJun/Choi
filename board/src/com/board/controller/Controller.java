@@ -1,5 +1,10 @@
 package com.board.controller;
 
-public class Controller {
+import java.sql.SQLException;
 
+public class Controller {
+  
+	public void insertBoard(String board)throws SQLException{
+		
+	}
 }
