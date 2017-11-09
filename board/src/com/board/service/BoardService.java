@@ -1,5 +1,8 @@
 package com.board.service;
 
-public interface BoardService {
+import java.sql.SQLException;
 
+public interface BoardService {
+   
+	void addBoard(String board)throws SQLException;
 }
